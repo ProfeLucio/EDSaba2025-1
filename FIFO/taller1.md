@@ -28,6 +28,9 @@ Desarrollar un programa en C que implemente un arreglo tipo FIFO para gestionar 
 4. **Calcular el costo total del inventario**:
    - Calcular y mostrar el costo total del inventario sumando los costos de todos los productos.
 
+5. **Eliminar un producto del inventario**:
+   - Se puede eliminar un producto del inventario solamente si las cantidades son iguales a cero.
+
 ---
 # **Reglas para la Entrega de Trabajo**
 

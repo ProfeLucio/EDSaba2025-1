@@ -10,8 +10,7 @@ struct nodo {
 struct nodo *cab, *aux, *ultimo;
 int mostrarNodos(){
     for(aux=cab; aux!=NULL; aux=aux->sig){
-        cout<<aux->valor<<" <- Valor del Nodo"<<endl;
-        
+        cout<<aux->valor<<" <- Valor del Nodo"<<endl;        
     }
 }
 int crearNodo(){    
@@ -32,6 +31,22 @@ int crearNodo(){
     }
     aux = NULL;
     free(aux);
+}
+int buscar(){
+    int aguja;
+    int contador=0;
+    cout<<"Cual es el valor a buscar: ";
+    cin>>aguja;
+    for(aux=cab; aux!=NULL; aux=aux->sig){
+        if(aguja==aux->valor){
+            contador++;
+        }
+    }
+    if(contador==0){
+        cout<<"Pailas, no se encontro el valor en el arreglo FIFO.";
+    } else {
+        cout<<"Felicidades!!, Se encontro el valor en el arreglo FIFO. En "<<contador<<" ocasiones.";
+    }
 }
 int main(){
     int opc;
