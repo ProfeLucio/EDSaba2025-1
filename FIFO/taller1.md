@@ -88,18 +88,17 @@ Desarrollar un programa en C que implemente un arreglo tipo FIFO para gestionar 
    - Liberar correctamente la memoria de cada nodo cuando sea necesario.
 
 ---
+# Rúbrica de Calificación Ajustada
 
-## **Rúbrica de Calificación**
+| **Criterio**                | **Puntos** | **Descripción**                                                                 |
+|-----------------------------|------------|---------------------------------------------------------------------------------|
+| **Definición de estructura** | 10         | Estructura definida correctamente con todos los campos y claridad de diseño.    |
+| **Registro de productos**    | 15         | Función totalmente funcional y validada.                                       |
+| **Visualización de productos** | 15       | Presentación completa y clara de todos los productos en el inventario.          |
+| **Gestión de inventario**     | 20         | Funciones de buscar y modificar con validaciones precisas y sin errores.        |
+| **Adicionar productos**       | 10         | Incorporación correcta pero con menos relevancia que buscar y modificar.        |
+| **Cálculo de costos**         | 15         | Cálculo eficiente y preciso del costo total del inventario.                     |
+| **Eliminar productos**        | 35         | Eliminación solo permitida si las cantidades son cero, con validaciones precisas.|
+| **Gestión de memoria**        | 20         | Uso adecuado de memoria sin errores ni fugas.                                   |
 
-| **Criterio**                       | **Excelente (100)**                           | **Bueno (80)**                               | **Aceptable (60)**                           | **Insuficiente (<60)**                      |
-|------------------------------------|---------------------------------------------|--------------------------------------------|--------------------------------------------|---------------------------------------------|
-| **Definición de estructura**       | Estructura bien definida y con todos los campos. | Estructura definida con pequeños errores. | Estructura funcional pero poco clara.       | Estructura mal definida o ausente.          |
-| **Registro de productos**          | Función totalmente funcional.               | Función funcional con pequeños errores.     | Función con errores menores pero operativa. | Función con errores graves o ausente.       |
-| **Visualización de productos**     | Listado claro, completo y detallado.        | Listado correcto con pocos errores.         | Listado con errores menores.                | No muestra el listado o presenta errores.   |
-| **Gestión de inventario**          | Función completamente funcional y validada. | Función funcional con pequeños errores.     | Función con validaciones mínimas o errores menores. | No realiza la actualización correctamente.  |
-| **Cálculo de costos**              | Cálculo preciso y eficiente.                | Cálculo funcional con pocos errores.        | Cálculo con errores menores.                | Cálculo ausente o con errores graves.       |
-| **Gestión de memoria**             | Memoria gestionada correctamente y sin fugas. | Memoria gestionada con pocos errores.      | Memoria con errores menores pero aceptable. | Mala gestión de memoria o presencia de fugas.|
-
-**Nota**: Cada criterio tiene un puntaje máximo de 100. La nota final será el promedio de todos los criterios.
-
----
+**Total: 140 puntos**
