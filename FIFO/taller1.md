@@ -88,17 +88,16 @@ Desarrollar un programa en C que implemente un arreglo tipo FIFO para gestionar 
    - Liberar correctamente la memoria de cada nodo cuando sea necesario.
 
 ---
-# Rúbrica de Calificación Ajustada
+# Rúbrica de Calificación
 
 | **Criterio**                | **Puntos** | **Descripción**                                                                 |
 |-----------------------------|------------|---------------------------------------------------------------------------------|
 | **Definición de estructura** | 10         | Estructura definida correctamente con todos los campos y claridad de diseño.    |
 | **Registro de productos**    | 15         | Función totalmente funcional y validada.                                       |
-| **Visualización de productos** | 15       | Presentación completa y clara de todos los productos en el inventario.          |
+| **Visualización de productos** | 5       | Presentación completa y clara de todos los productos en el inventario.          |
+| **Cálculo de costos**         | 5         | Cálculo eficiente y preciso del costo total del inventario.                     |
 | **Gestión de inventario**     | 20         | Funciones de buscar y modificar con validaciones precisas y sin errores.        |
-| **Disminucion de productos del inventario**       | 10         | Gestión correcta de ventas.        |
-| **Cálculo de costos**         | 15         | Cálculo eficiente y preciso del costo total del inventario.                     |
 | **Eliminar productos**        | 35         | Eliminación solo permitida si las cantidades son cero, con validaciones precisas.|
-| **Gestión de memoria**        | 20         | Uso adecuado de memoria sin errores ni fugas.                                   |
+| **Gestión de memoria**        | 10         | Uso adecuado de memoria y apuntadores hasta su liberación.                                   |
 
-**Total: 140 puntos**
+**Total: 100 puntos**
