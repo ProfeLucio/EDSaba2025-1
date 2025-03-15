@@ -6,7 +6,7 @@ struct nodo {
     int valor;
     struct nodo *sig;//NULL
 };
-
+//Generar una funcion que permita determinar si existe un nodo con valor X. Y cuantos nodos tienen dicho valor
 struct nodo *cab, *aux, *ultimo;
 int mostrarNodos(){
     for(aux=cab; aux!=NULL; aux=aux->sig){
