@@ -96,7 +96,7 @@ Desarrollar un programa en C que implemente un arreglo tipo FIFO para gestionar 
 | **Registro de productos**    | 15         | Función totalmente funcional y validada.                                       |
 | **Visualización de productos** | 15       | Presentación completa y clara de todos los productos en el inventario.          |
 | **Gestión de inventario**     | 20         | Funciones de buscar y modificar con validaciones precisas y sin errores.        |
-| **Adicionar productos**       | 10         | Incorporación correcta pero con menos relevancia que buscar y modificar.        |
+| **Disminucion de productos del inventario**       | 10         | Gestión correcta de ventas.        |
 | **Cálculo de costos**         | 15         | Cálculo eficiente y preciso del costo total del inventario.                     |
 | **Eliminar productos**        | 35         | Eliminación solo permitida si las cantidades son cero, con validaciones precisas.|
 | **Gestión de memoria**        | 20         | Uso adecuado de memoria sin errores ni fugas.                                   |
