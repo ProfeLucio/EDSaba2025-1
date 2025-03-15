@@ -4,7 +4,7 @@ using namespace std;
 //Declaracion Nodo
 struct nodo {
     int valor;
-    struct nodo *sig;
+    struct nodo *sig;//NULL
 };
 
 struct nodo *cab, *aux, *ultimo;
@@ -27,9 +27,12 @@ int crearNodo(){
             ultimo = ultimo->sig;
         }
         ultimo->sig = aux;
+        ultimo = NULL;
+        free(ultimo);
     }
-
-} 
+    aux = NULL;
+    free(aux);
+}
 int main(){
     int opc;
     do {
