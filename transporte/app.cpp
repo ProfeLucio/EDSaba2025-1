@@ -88,8 +88,6 @@ int registrarContenedor(struct barco *dondeVa){
     auxContenedor = NULL;
     free(auxContenedor);
 }
-
-void mostrarTodo(){}
 int mostrarBarcos(struct barco *nuevaraiz){
     if(nuevaraiz!=NULL){
         cout<<"ID: "<<nuevaraiz->id<<endl;        
