@@ -4,6 +4,7 @@
 Este documento explica paso a paso cómo eliminar un nodo en un Árbol Binario de Búsqueda (ABB), considerando los tres casos clásicos. Se incluyen ejemplos gráficos en ASCII para una mejor comprensión.
 
 ---
+[Canal Glucio - Eliminar Nodos: Explicación y Códigos ](https://www.youtube.com/watch?v=ySCCOEslCN0&list=PLlVOBhkCHqgAs-2LSqzwDpuHWkmDKiCTs&index=29)
 
 ## ✅ CASO 1: El nodo a eliminar **no tiene hijos** (nodo hoja)
 
